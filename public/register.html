@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>注册页面</title>
+    <link rel="stylesheet" href="./css/normal.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./js/register.js"></script>
+    <script src="./js/jQuery.js"></script>
+</head>
+
+<body>
+    <form method="post" action="http://localhost:3008/register">
+        <div class="box">
+            <!-- 输入账号 -->
+            <input type="text" placeholder="请输入账号" class="inp1" name="username" >
+            <span class="tips"></span>
+            <span class="an">安全系数</span>
+            <span class="red"></span>
+            <span class="yellow"></span>
+            <span class="green"></span>
+            <!-- 输入密码 -->
+            <input type="text" placeholder="请输入密码" class="inp2" name="password">
+            <span class="tips"></span>
+            <!-- 中国大陆 -->
+            <select name="" id="">
+                <option value="">中国大陆</option>
+                <option value="">国内</option>
+                <option value="">港外</option>
+            </select>
+            <!-- 手机号 -->
+            <input type="text" placeholder="填常用手机号" class="inp3" name="phone">
+            <span class="tips"></span>
+            <!-- 同意 -->
+            <div class="agree">
+                <input type="checkbox"><span class="white"> 我已同意</span><a href="">《xxx用户使用协议》</a>
+            </div>
+            <!-- 注册 -->
+            <button class="btn" type="submit">注册</button>
+            <!-- 返回 -->
+            <div class="return">
+                <button class="btn2">返回</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6475e990ee610698cd06404e"
+  },
+  "username": "loip",
+  "password": "klo123456#",
+  "phone": 13245682569,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6476f18ce751a9fa12b9a89e"
+  },
+  "username": "lopi",
+  "password": "lop156987$",
+  "phone": 13227265489,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6476f1ebe751a9fa12b9a8a0"
+  },
+  "username": "",
+  "password": "",
+  "phone": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6476f1fce751a9fa12b9a8a2"
+  },
+  "username": "juy",
+  "password": "123456hy",
+  "phone": 13245682569,
+  "__v": 0,
+  "user": "lo"
+},{
+  "_id": {
+    "$oid": "6477fa56e6851de74552b8d4"
+  },
+  "username": "admin",
+  "password": "hjK56lo$",
+  "phone": 13245682569,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6477fada9b4d8d585e9660da"
+  },
+  "username": "xixij",
+  "password": "hjK56lo$",
+  "phone": 13245682569,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6477fd73db4c4cbb832229b5"
+  },
+  "username": "wei",
+  "password": "123kop#",
+  "phone": 13245682567,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64780ed95f2b0d7fd0721649"
+  },
+  "username": "lohu",
+  "password": "123kop#",
+  "phone": 13245682561,
+  "__v": 0
+}]

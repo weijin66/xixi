@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>番剧</title>
+    <link rel="stylesheet" href="./css/normal.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="./css/swiper2.css">
+    <link rel="stylesheet" href="./css/oparal.css">
+    <script src="./js/jQuery  v3.6.1.js"></script>
+    <script src="./swiper/swiper-bundle.js"></script>
+</head>
+
+<body>
+    <!-- 导入头部 -->
+    <iframe src="head.html" frameborder="0" width="100%" height="200vw" scrolling="no"></iframe>
+    <!-- 导航栏部分 -->
+    <nav class="navgation">
+
+    </nav>
+    <!-- 主体部分 -->
+    <main>
+        <!-- 番剧导航 -->
+        <ul class="oparal_nav">
+            <li>全部</li>
+            <li>连载动画</li>
+            <li>完结动画</li>
+            <li>热门大大</li>
+            <li>官方延伸</li>
+        </ul>
+        <!-- 轮播图 -->
+        <section>
+            <!-- 左边轮播图 -->
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                   
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- 右边图片部分 -->
+            <ul class="right_img">
+
+            </ul>
+        </section>
+        <!-- 连载动画 -->
+        <div class="serializedAnimation">
+            <!-- 标题 -->
+            <div class="title">
+                <p class="p1">连载动画</p>
+                <p class="p2">新番时间表</p>
+            </div>
+            <ul class="serialized_img">
+               
+            </ul>
+        </div>
+        <!-- banner图 -->
+        <div class="banner">
+            <img src="./images/71_4.jpg" alt="">
+        </div>
+        <!-- 完结动画部分 -->
+        <h3>完结动画</h3>
+        <section>
+            <!-- 左边排名 -->
+            <div class="rank_left">
+
+            </div>
+            <!-- 右边图片 -->
+            <ul class="right_photo">
+               
+            </ul>
+        </section>
+        <!-- 热门大大 -->
+        <h3>热门大大</h3>
+        <ul class="mh_img">
+           
+        </ul>
+    </main>
+
+    <script src="./js/oparal.js"></script>
+    <!-- 导入底部 -->
+    <iframe src="footer.html" frameborder="0" width="100%" scrolling="no"></iframe>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+body {
+  font-size: .8vw;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/login2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+form {
+  border-radius: 10px;
+  width: 50vw;
+  height: 34vw;
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid #666699;
+  transform: translate(-50%, -50%);
+}
+
+.tittle {
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5vw;
+  width: 50vw;
+  height: 4vw;
+  margin-bottom: 1vw;
+  line-height: 4vw;
+  text-align: center;
+}
+
+div {
+  width: 25vw;
+  margin: 0 auto;
+  height: 2.5vw;
+}
+
+input {
+  width: 25vw;
+  height: 2.5vw;
+  box-sizing: border-box;
+}
+
+p {
+  width: 25vw;
+  height: 2vw;
+  margin: 0 auto;
+  font-size: 1vw;
+  line-height: 2vw;
+  font-weight: 800;
+}
+
+p>span {
+  font-size: 0.8vw;
+  float: right;
+  height: 2vw;
+  font-weight: 200;
+  line-height: 2vw;
+}
+
+.phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone input {
+  width: 15vw;
+}
+
+.phone select {
+  width: 8vw;
+  height: 2.5vw;
+}
+
+.agreement {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.agreement input {
+  width: 1vw;
+  margin-right: 1vw;
+}
+
+.agreement span {
+  color: #FFCC99;
+}
+
+.register {
+  width: 25vw;
+  height: 2.5vw;
+  margin: 0 auto;
+  display: block;
+  color: #fff;
+  background-color: #5a98ed;
+}
+
+.return {
+  color: #fff;
+  background-color: #5a98ed;
+  margin-top: 1vw;
+  float: right;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #225592;
+}
+
+.bottom span {
+  color: #fff;
+  margin: 0 1vw;
+}
+
+.verification {
+  position: relative;
+  cursor: pointer;
+}
+
+.verification span {
+  position: absolute;
+  right: -9vw;
+  width: 9vw;
+  text-align: center;
+  line-height: 2.5vw;
+  height: 2.5vw;
+  color: #66CC00;
+  background-color: #006666;
+}
+
+.inp {
+  position: relative;
+}
+
+.correct {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+i {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  line-height: 2vw;
+  border-radius: 50%;
+  font-size: .8vw;
+  font-style: normal;
+  right: -3vw;
+  display: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.show {
+  display: block;
+}

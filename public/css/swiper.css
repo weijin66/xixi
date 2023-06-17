@@ -1,0 +1,10 @@
+.swiper {
+    width: 48.18vw;
+    height: 23.31vw;
+    border-radius: 0.8vw;
+}
+
+.swiper-slide>img {
+    width: 48.18vw;
+    height: 23.31vw;
+}

@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+.navgation {
+  display: flex;
+  justify-content: space-around;
+  width: 57vw;
+  height: 6vw;
+  line-height: 6vw;
+  padding-bottom: 1vw;
+  box-sizing: border-box;
+  margin-left: 10vw;
+}
+.navgation .active {
+  border-color: transparent;
+}
+.navgation div {
+  border-bottom: 0.5vw solid transparent;
+  font-size: 1.5vw;
+}
+.navgation div:hover {
+  border-bottom: 0.5vw solid #00ccff;
+  transition: 0.3s all;
+}
+main {
+  width: 86.72vw;
+  margin: 0 auto;
+}
+main .list {
+  overflow: hidden;
+  width: 20.7vw;
+  margin-left: 5vw;
+}
+main .list li {
+  float: left;
+  line-height: 2.5vw;
+  padding: 0 2.15vw;
+  list-style: none;
+  cursor: pointer;
+}
+main .list .active {
+  color: pink;
+}
+main section {
+  width: 78.72vw;
+  height: 23.31vw;
+  display: flex;
+  margin-top: 2.04vw;
+  margin-left: 5vw;
+}
+main section .right_msg {
+  background-color: #aad5ff;
+  border-radius: 0.3vw;
+  margin-left: 2vw;
+}
+main section .right_msg .title {
+  width: 26.31vw;
+  height: 4.02vw;
+  display: flex;
+  align-items: center;
+  margin-left: 1.98vw;
+}
+main section .right_msg .title .new {
+  display: flex;
+  align-items: center;
+}
+main section .right_msg .title .new p {
+  width: 1vw;
+  height: 1vw;
+  background: url(../images/li_bg.png) no-repeat;
+  background-size: 10px 15px;
+}
+main section .right_msg .title .more span {
+  display: block;
+  text-align: center;
+  line-height: 1.375vw;
+  color: #fff;
+  width: 4.9375vw;
+  height: 1.375vw;
+  background: url(../images/a_bg.png) no-repeat;
+  background-size: 4.9375vw 1.375vw;
+  margin-left: 11.5vw;
+}
+main section .right_msg .line {
+  width: 21.28vw;
+  height: 0.1vw;
+  margin-left: 1.98vw;
+  background-color: #808080;
+}
+main section .right_msg li {
+  width: 21.6vw;
+  height: 2.36vw;
+  margin-left: 1.98vw;
+  line-height: 2.36vw;
+  font-size: 0.8vw;
+  color: #8d6a86;
+  border-bottom: 0.1vw dashed #d1a1a1;
+}
+main section .right_msg li:hover {
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+main .update {
+  width: 80.94vw;
+  height: 22vw;
+  margin: 3vw auto;
+  overflow: hidden;
+  transition: all 2s;
+}
+main .update p {
+  display: flex;
+  height: 1.98vw;
+  font-size: 2vw;
+  justify-content: space-between;
+}
+main .update span {
+  display: block;
+  width: 8.41vw;
+  height: 1.77vw;
+  border: 0.2vw solid #ff0099;
+  border-radius: 0.8vw;
+  font-size: 1vw;
+  text-align: center;
+  line-height: 1.77vw;
+  color: #ff0099;
+}
+main .update ul {
+  width: 80.94vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .update ul li {
+  width: 19.52vw;
+  height: 6.59vw;
+  margin-top: 3vw;
+  display: flex;
+}
+main .update ul li img {
+  width: 6.48vw;
+  height: 6.48vw;
+  border-radius: 0.8vw;
+}
+main .update .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0.5vw 0 0 1.5vw;
+}
+main .update .text p {
+  font-size: 0.8vw;
+}
+main .all {
+  width: 80.94vw;
+  height: 2.95vw;
+  background-color: #ffc0cb;
+  border-radius: 0.5vw;
+  margin-top: -3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+main .all span {
+  display: inline-block;
+  width: 5.23vw;
+  height: 2vw;
+  line-height: 2vw;
+  text-align: center;
+  border-radius: 0.625vw;
+  border: 0.1vw solid #808080;
+  color: #808080;
+}
+main .gc_title {
+  width: 80.4vw;
+  height: 1.66vw;
+  margin-top: 3.43vw;
+}
+main .gc_title .left_title {
+  float: left;
+  font-size: 2vw;
+}
+main .gc_title .right_title {
+  float: right;
+  font-size: 1.5vw;
+}
+main .dh_pics {
+  width: 80.51vw;
+  height: 23.35vw;
+  margin-top: 1.5vw;
+  display: flex;
+}
+main .dh_pics .left_dh {
+  width: 59.16vw;
+  height: 22.19vw;
+  display: flex;
+  justify-content: space-between;
+}
+main .dh_pics .left_dh li {
+  width: 14.15vw;
+  height: 22.24vw;
+  transition: 3s;
+}
+main .dh_pics .left_dh li img {
+  width: 14.15vw;
+  height: 18.49vw;
+  border-radius: 0.5vw;
+}
+main .dh_pics .left_dh li p {
+  font-size: 1vw;
+  transition: all 2s;
+}
+main .dh_pics .left_dh li p span {
+  display: inline-block;
+  height: 1.1vw;
+  overflow: hidden;
+}
+main .dh_pics .left_dh li div {
+  width: 12.77vw;
+  display: flex;
+  margin-top: 1vw;
+}
+main .dh_pics .left_dh li div p {
+  width: 45%;
+  height: 5vw;
+  text-indent: 1.5625vw;
+  background: url(../images/li_0.PNG) no-repeat;
+}
+main .dh_pics .left_dh li div .numbers {
+  width: 45%;
+  height: 5vw;
+  text-indent: 1.5625vw;
+  background: url(../images/li_1.PNG) no-repeat;
+  margin-left: 2vw;
+}
+main .dh_pics .hot_dm {
+  width: 16.43vw;
+  height: 19.83vw;
+  margin-left: 0.8vw;
+}
+main .dh_pics .hot_dm ul {
+  display: flex;
+}
+main .dh_pics .hot_dm ul li {
+  margin: 0.5vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+main .dh_pics .hot_dm ul li:hover .details {
+  display: flex;
+}
+main .dh_pics .hot_dm ul li:hover .rank_title {
+  display: none;
+}
+main .dh_pics .hot_dm ul li .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.39vw;
+  height: 1.29vw;
+  background-color: #ff9900;
+  border-radius: 0.3vw;
+  color: #fff;
+  font-size: 0.8vw;
+}
+main .dh_pics .hot_dm ul li .rank_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .dh_pics .hot_dm ul li .rank_title p {
+  font-size: 0.8vw;
+  padding-left: 1vw;
+}
+main .dh_pics .hot_dm ul li .details {
+  display: none;
+  margin-left: 1vw;
+}
+main .dh_pics .hot_dm ul li .details img {
+  width: 6.54vw;
+  height: 4.13vw;
+  border-radius: 0.8vw;
+}
+main .dh_pics .hot_dm ul li .details .dm_name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 5vw;
+}
+main .dh_pics .hot_dm ul li .details .dm_name p {
+  width: 10vw;
+  font-size: 0.8vw;
+}
+main .dh_pics .hot_dm img {
+  width: 17.63vw;
+  height: 6.77vw;
+}
+main .banner {
+  margin-top: 3.22vw;
+}
+main .banner img {
+  width: 78.94vw;
+  height: 7.98vw;
+  border-radius: 0.5vw;
+}
+main .handOperated {
+  width: 77.49vw;
+  height: 35.4vw;
+  margin-top: 4.23vw;
+  display: flex;
+  justify-content: space-between;
+}
+main .handOperated .handOperated_left {
+  width: 59.87vw;
+  height: 25.4vw;
+}
+main .handOperated .handOperated_left ul {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+main .handOperated .handOperated_left ul li {
+  width: 14.04vw;
+  height: 21.92vw;
+}
+main .handOperated .handOperated_left ul li img {
+  width: 14.04vw;
+  height: 18.6vw;
+  border-radius: 0.5vw;
+}
+main .handOperated .handOperated_left ul li p {
+  font-size: 0.9vw;
+}
+main .handOperated .handOperated_left ul li div {
+  margin-top: 0.8vw;
+}
+main .handOperated .handOperated_left ul li div span {
+  font-size: 1vw;
+}
+main .handOperated .handOperated_right {
+  width: 16.93vw;
+  height: 22.56vw;
+}
+main .handOperated .handOperated_right img {
+  width: 16.93vw;
+  height: 22.56vw;
+  border-radius: 0.5vw;
+  margin-top: 1.8vw;
+}

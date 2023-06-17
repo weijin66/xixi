@@ -1,0 +1,26 @@
+需要在终端运行app.js连接数据库进行注册登录访问页面
+需要安装对应包  请 npm install
+
+文件说明
+
+---public   			静态资源文件
+---app.js   			配置文件
+---users.json			mongodb数据库的用户信息表
+
+public
+  |
+  |
+  css  ---相关css文件
+  js   ---相关js文件       data.json   ----mongodb数据库的时间表数据
+
+ swiper  ---swiper组件
+
+footer.html  ----底部页面
+head.html    ---头部页面
+home.html  ---首页页面
+login.html   ---登录页面
+nationalInnovation.html ---国创页面
+oparal.html  ---新番页面
+register.html ---注册页面
+screeningRoom.html  ---放映厅页面
+tmeList.html   ---新番时间表页面

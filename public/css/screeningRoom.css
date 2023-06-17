@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+.navgation {
+  display: flex;
+  justify-content: space-around;
+  width: 57vw;
+  height: 6vw;
+  line-height: 6vw;
+  padding-bottom: 1vw;
+  box-sizing: border-box;
+  margin-left: 10vw;
+}
+.navgation .active {
+  border-color: transparent;
+}
+.navgation div {
+  border-bottom: 0.5vw solid transparent;
+  font-size: 1.5vw;
+}
+.navgation div:hover {
+  border-bottom: 0.5vw solid #00ccff;
+  transition: 0.3s all;
+}
+main {
+  width: 71.06vw;
+  margin: 0 auto;
+}
+main h3 {
+  padding-top: 1.61vw;
+}
+main .hotPlay {
+  width: 71.06vw;
+  height: 10.77vw;
+  display: flex;
+  justify-content: space-between;
+}
+main .hotPlay .left_img {
+  width: 50.64vw;
+  height: 10.77vw;
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+main .hotPlay .left_img li {
+  width: 11.63vw;
+  height: 10.24vw;
+}
+main .hotPlay .left_img li img {
+  width: 11.63vw;
+  height: 7.23vw;
+  border-radius: 0.5vw;
+}
+main .hotPlay .left_img li .p {
+  font-size: 0.8vw;
+}
+main .hotPlay .left_img li .gray {
+  font-size: 0.8vw;
+  color: #999;
+  padding-top: 0.3vw;
+}
+main .hotPlay .right_img img {
+  width: 18.86vw;
+  height: 10.88vw;
+  border-radius: 0.5vw;
+}
+main .documentary_title {
+  width: 71.06vw;
+  height: 2.89vw;
+  display: flex;
+  margin-top: 2vw;
+}
+main .documentary_title .documentary_left {
+  width: 5.57vw;
+  height: 2.89vw;
+  display: flex;
+  align-items: center;
+}
+main .documentary_title .documentary_left p {
+  font-size: 1.5vw;
+}
+main .documentary_title .documentary_right {
+  width: 70.74vw;
+  height: 2.89vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .documentary_title .documentary_right p {
+  font-size: 1vw;
+}
+main .documentary_title .documentary_right .hot {
+  margin-left: 57vw;
+}
+main .documentary_title .documentary_right .more {
+  width: 3.75vw;
+  height: 1.55vw;
+  border: 0.1vw solid #000;
+  text-align: center;
+  line-height: 1.55vw;
+  border-radius: 0.3vw;
+  font-size: 0.2vw;
+}
+main .contains {
+  width: 71.06vw;
+  height: 26.15vw;
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+main .contains .main_left {
+  display: flex;
+  width: 50.7vw;
+}
+main .contains .main_left img {
+  width: 24.71vw;
+  height: 23.15vw;
+  border-radius: 0.5vw;
+}
+main .contains .documentary_pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 2vw;
+}
+main .contains .documentary_pics li {
+  width: 11.58vw;
+  height: 10.45vw;
+}
+main .contains .documentary_pics li img {
+  width: 11.58vw;
+  height: 7.34vw;
+  border-radius: 0.5vw;
+}
+main .contains .documentary_pics li p {
+  font-size: 0.8vw;
+}
+main .contains .documentary_pics li .gray {
+  font-size: 0.8vw;
+  color: #999;
+  padding-top: 0.3vw;
+}
+main .contains .hot_dm {
+  width: 16.43vw;
+  height: 19.83vw;
+  margin-left: 0.8vw;
+}
+main .contains .hot_dm ul {
+  display: flex;
+}
+main .contains .hot_dm ul li {
+  margin: 0.5vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+main .contains .hot_dm ul li:hover .details {
+  display: flex;
+}
+main .contains .hot_dm ul li:hover .rank_title {
+  display: none;
+}
+main .contains .hot_dm ul li .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.39vw;
+  height: 1.29vw;
+  background-color: #ff9900;
+  border-radius: 0.3vw;
+  color: #fff;
+  font-size: 0.8vw;
+}
+main .contains .hot_dm ul li .rank_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .contains .hot_dm ul li .rank_title p {
+  width: 20vw;
+  font-size: 0.8vw;
+  padding-left: 1vw;
+}
+main .contains .hot_dm ul li .details {
+  display: none;
+  margin-left: 1vw;
+}
+main .contains .hot_dm ul li .details img {
+  width: 6.54vw;
+  height: 4.13vw;
+  border-radius: 0.8vw;
+}
+main .contains .hot_dm ul li .details .dm_name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 5vw;
+}
+main .contains .hot_dm ul li .details .dm_name p {
+  width: 10vw;
+  font-size: 0.8vw;
+}
+main .contains .hot_dm img {
+  width: 17.63vw;
+  height: 6.77vw;
+}
+main .banner {
+  margin-top: 1.45vw;
+}
+main .banner img {
+  width: 71.06vw;
+  height: 12.7vw;
+  border-radius: 0.5vw;
+}
+main .film {
+  width: 70.9vw;
+  height: 38.69vw;
+  display: flex;
+  justify-content: space-between;
+}
+main .film .film_left {
+  width: 50.7vw;
+  height: 38.75vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1.39vw;
+}
+main .film .film_left li {
+  width: 11.58vw;
+  height: 18.38vw;
+}
+main .film .film_left li img {
+  width: 11.58vw;
+  height: 15.34vw;
+  border-radius: 0.5vw;
+}
+main .film .film_left li p {
+  font-size: 1vw;
+}
+main .film .film_left li .gray {
+  font-size: 0.8vw;
+  color: #999;
+  padding-top: 0.5vw;
+}
+main .film .hot_dm {
+  width: 16.43vw;
+  height: 19.83vw;
+  margin-left: 0.8vw;
+  margin-top: 1vw;
+}
+main .film .hot_dm ul {
+  display: flex;
+}
+main .film .hot_dm ul li {
+  margin: 0.5vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+main .film .hot_dm ul li:hover .details {
+  display: flex;
+}
+main .film .hot_dm ul li:hover .rank_title {
+  display: none;
+}
+main .film .hot_dm ul li .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.39vw;
+  height: 1.29vw;
+  background-color: #ff9900;
+  border-radius: 0.3vw;
+  color: #fff;
+  font-size: 0.8vw;
+}
+main .film .hot_dm ul li .rank_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .film .hot_dm ul li .rank_title p {
+  width: 20vw;
+  font-size: 0.8vw;
+  padding-left: 1vw;
+}
+main .film .hot_dm ul li .details {
+  display: none;
+  margin-left: 1vw;
+}
+main .film .hot_dm ul li .details img {
+  width: 6.54vw;
+  height: 4.13vw;
+  border-radius: 0.8vw;
+}
+main .film .hot_dm ul li .details .dm_name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 5vw;
+}
+main .film .hot_dm ul li .details .dm_name p {
+  width: 10vw;
+  font-size: 0.8vw;
+}
+main .film .hot_dm img {
+  width: 18.81vw;
+  height: 10.88vw;
+  border-radius: 0.5vw;
+}

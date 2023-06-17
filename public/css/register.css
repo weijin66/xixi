@@ -1,0 +1,91 @@
+body {
+  font-size: 0.8vw;
+}
+form {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/calw1508.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.box {
+  width: 35vw;
+  height: 30vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box .inp1 {
+  width: 25vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  margin: 3vw 0 0 5vw;
+}
+.box ::placeholder {
+  font-size: 0.8vw;
+}
+.box .an {
+  display: inline-block;
+  font-size: 0.8vw;
+  font-weight: bold;
+  padding: 1vw 0 0 5vw;
+}
+.box .red,
+.box .yellow,
+.box .green {
+  display: inline-block;
+  width: 3vw;
+  height: 1vw;
+}
+.box .inp2 {
+  width: 25vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  margin: 1vw 0 0 5vw;
+}
+.box select {
+  width: 7vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  margin: 2vw 0 0 5vw;
+}
+.box .inp3 {
+  width: 16vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  margin-left: 1.5vw;
+}
+.box .agree {
+  margin: 2vw 0 0 5vw;
+}
+.box .white {
+  color: #fff;
+  font-size: 0.8vw;
+}
+.box .agree > a {
+  color: #ffcc99;
+  font-size: 0.5vw;
+}
+.box .btn {
+  width: 25vw;
+  height: 3vw;
+  margin: 1vw 0 0 5vw;
+  background-color: #0099ff;
+  text-align: center;
+  line-height: 2vw;
+  border-radius: 0.5vw;
+}
+.box .return {
+  margin: 1vw 0 0 26vw;
+}
+.box .btn2 {
+  width: 4vw;
+  height: 2vw;
+  background-color: #cccccc;
+  border-radius: 0.5vw;
+  font-size: 0.8vw;
+}

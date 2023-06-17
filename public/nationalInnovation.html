@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>国创页面</title>
+    <link rel="stylesheet" href="./css/normal.css">
+    <link rel="stylesheet" href="./css/nationalInnovation.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="./css/swiper3.css">
+    <script src="./js/jQuery  v3.6.1.js"></script>
+    <script src="./swiper/swiper-bundle.js"></script>
+</head>
+
+<body>
+    <!-- 导入头部 -->
+    <iframe src="head.html" frameborder="0" width="100%" height="200vw" scrolling="no"></iframe>
+    <!-- 导航栏部分 -->
+    <nav class="navgation">
+
+    </nav>
+
+    <main>
+        <!-- 选项卡部分 -->
+        <div class="wrap">
+            <ul class="list">
+                <li class="active">全部</li>
+                <a href="./timeList.html">
+                    <li>新番时间表</li>
+                </a>
+            </ul>
+        </div>
+
+        <section>
+            <!-- 左边轮播图 -->
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                   
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- 右边图片部分 -->
+            <ul class="right_msg">
+                <div class="title">
+                    <div class="new">
+                        <p></p>
+                        <span>最新消息</span>
+                    </div>
+
+                    <div class="more">
+                        <span>more</span>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </ul>
+        </section>
+        <!-- 最近更新部分 -->
+        <div class="update">
+            <p>
+                最近更新
+                <span>新番时间表</span>
+            </p>
+            <ul class="pics">
+
+            </ul>
+        </div>
+        <div class="all">
+            <span class="updataAll">全部</span>
+        </div>
+        <!-- 国产动画标题 -->
+        <div class="gc_title">
+            <div class="left_title">
+                国产动画
+            </div>
+            <div class="right_title">
+                国产热门
+            </div>
+        </div>
+        <div class="dh_pics">
+            <!-- 左边国产动画 -->
+            <ul class="left_dh">
+
+            </ul>
+            <!-- 右边排行 -->
+            <div class="hot_dm hot_gc">
+
+            </div>
+        </div>
+        <!-- banner图 -->
+        <div class="banner">
+            <img src="./images/01.png" alt="">
+        </div>
+
+        <!-- 国产原创标题 -->
+        <div class="gc_title">
+            <div class="left_title">
+                国产原创
+            </div>
+            <div class="right_title">
+                原创热门
+            </div>
+        </div>
+        <div class="dh_pics yc_pics">
+            <!-- 左边国产原创 -->
+            <ul class="left_dh left_gc">
+
+            </ul>
+            <!-- 右边排行 -->
+            <div class="hot_dm hot_gc gc">
+
+            </div>
+        </div>
+        <!-- 手办部分 -->
+        <div class="handOperated">
+            <div class="handOperated_left">
+                <h2>手办</h2>
+                <ul class="sb_pics">
+                    <!-- <li>
+                        <img src="./images/v_29.jpeg" alt="">
+                        <p>霹靂天命之《戰禍邪神》搶先看</p>
+                        <div>
+                            <span>点击数:1621</span>
+                            <span>销售量:21</span>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- 右边广告部分 -->
+            <div class="handOperated_right">
+                <h5>广告</h5>
+                <img src="images/v_31.jpg" alt="">
+            </div>
+        </div>
+    </main>
+    <script src="./js/nationalInnovation.js"></script>
+    <!-- 导入底部 -->
+    <iframe src="footer.html" frameborder="0" width="100%" height="190vw" scrolling="no"></iframe>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>

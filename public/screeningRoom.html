@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>放映厅</title>
+    <link rel="stylesheet" href="./css/normal.css">
+    <link rel="stylesheet" href="./css/screeningRoom.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="./css/swiper4.css">
+    <script src="./js/jQuery  v3.6.1.js"></script>
+    <script src="./swiper/swiper-bundle.js"></script>
+</head>
+
+<body>
+    <!-- 导入头部 -->
+    <iframe src="head.html" frameborder="0" width="100%" height="200vw" scrolling="no"></iframe>
+    <!-- 导航栏部分 -->
+    <nav class="navgation">
+
+    </nav>
+
+    <!-- 轮播图 -->
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- <div class="swiper-slide">
+                <img src="./images/timg.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/07.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bbbb.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/cccc.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/daojiandong.jpg" alt="">
+            </div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <main>
+        <!-- 热播推荐 -->
+        <h3>热播推荐</h3>
+        <div class="hotPlay">
+            <ul class="left_img">
+
+            </ul>
+            <!-- 右边图片 -->
+            <div class="right_img">
+                <img src="./images/1012.jpg" alt="">
+            </div>
+        </div>
+        <!-- 纪录片部分 -->
+        <div class="documentary_title">
+            <div class="documentary_left">
+                <p>纪录片</p>
+            </div>
+            <div class="documentary_right">
+                <p class="hot">本周排行</p>
+                <div class="more">
+                    更多
+                </div>
+            </div>
+        </div>
+        <!-- 下面部分 -->
+        <div class="contains">
+            <!-- 左边纪录片部分 -->
+            <div class="main_left">
+                <img src="./images/three0.jpg" alt="">
+                <ul class="documentary_pics">
+
+                </ul>
+            </div>
+            <!-- 右边排行 -->
+            <div class="hot_dm documentary_rank">
+
+            </div>
+        </div>
+        <!-- banner图 -->
+        <div class="banner">
+            <img src="./images/71_2.jpg" alt="">
+        </div>
+        <!-- 电影部分 -->
+        <div class="documentary_title">
+            <div class="documentary_left">
+                <p>电影</p>
+            </div>
+            <div class="documentary_right">
+                <p class="hot">本周排行</p>
+                <div class="more">
+                    更多
+                </div>
+            </div>
+        </div>
+        <!-- 电影下面部分 -->
+        <div class="film">
+            <ul class="film_left">
+
+            </ul>
+            <!-- 右边排行 -->
+            <div class="hot_dm film_rank">
+
+            </div>
+        </div>
+        <!-- 电视剧部分 -->
+        <div class="documentary_title">
+            <div class="documentary_left">
+                <p>电视剧</p>
+            </div>
+            <div class="documentary_right">
+                <p class="hot">本周排行</p>
+                <div class="more">
+                    更多
+                </div>
+            </div>
+        </div>
+        <!-- 下面部分 -->
+        <div class="contains">
+            <!-- 左边电视剧部分 -->
+            <div class="main_left">
+                <img src="./images/five0.jpg" alt="">
+                <ul class="documentary_pics dsj">
+
+                </ul>
+            </div>
+            <!-- 右边排行 -->
+            <div class="hot_dm dsj_rank">
+                
+            </div>
+        </div>
+    </main>
+
+    <iframe src="footer.html" frameborder="0" width="100%" height="200vw" scrolling="no"></iframe>
+    <script src="./js/screeningRoom.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>

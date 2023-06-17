@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.navgation {
+    display: flex;
+    justify-content: space-around;
+    width: 57vw;
+    height: 6vw;
+    line-height: 6vw;
+    padding-bottom: 1vw;
+    box-sizing: border-box;
+    margin-left: 10vw;
+
+    .active {
+        border-color: transparent;
+    }
+
+    div {
+        border-bottom: 0.5vw solid transparent;
+        font-size: 1.5vw;
+
+        &:hover {
+            border-bottom: 0.5vw solid #00ccff;
+            transition: .3s all;
+        }
+    }
+}
+
+main {
+    width: 78.72vw;
+    margin: 0 auto;
+    // background: pink;
+
+    section {
+        width: 78.72vw;
+        height: 23.31vw;
+        display: flex;
+
+        .right_img {
+            width: 28.24vw;
+            height: 21.81vw;
+            margin-left: 1.8vw;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+
+            li {
+                height: 9.8vw;
+                position: relative;
+                overflow: hidden;
+
+                &:hover .mask {
+                    top: 0;
+                    cursor: pointer;
+                }
+            }
+
+            img {
+                width: 13.24vw;
+                height: 8.09vw;
+            }
+
+            p {
+                font-size: 0.1vw;
+                position: absolute;
+                z-index: 2;
+                height: 2vw;
+                width: 100%;
+                background: white;
+            }
+
+            .mask {
+                position: absolute;
+                width: 13.24vw;
+                height: 8.09vw;
+                top: 8.09vw;
+                left: 0vw;
+                background-color: rgba(44, 13, 21, .7);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all .5s;
+
+                img {
+                    width: 6vw;
+                    height: 6vw;
+                }
+            }
+        }
+    }
+
+    .vip {
+        width: 78.72vw;
+        height: 14.63vw;
+        margin-top: .6vw;
+        position: relative;
+
+        .title {
+            width: 10.15vw;
+            height: 3.59vw;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 3.75vw;
+                height: 3.59vw;
+            }
+
+            p {
+                font-size: 1.5vw;
+            }
+        }
+
+        .vip_img {
+            width: 56vw;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1.3vw;
+
+            li {
+                height: 9.8vw;
+                position: relative;
+                overflow: hidden;
+
+                &:hover .mask {
+                    top: 0;
+                    cursor: pointer;
+                }
+            }
+
+            img {
+                width: 13.29vw;
+                height: 8.09vw;
+            }
+
+            p {
+                font-size: 0.1vw;
+                position: absolute;
+                z-index: 2;
+                height: 2vw;
+                width: 100%;
+                background: white;
+            }
+
+            .mask {
+                position: absolute;
+                width: 13.24vw;
+                height: 8.09vw;
+                top: 8.09vw;
+                left: 0vw;
+                background-color: rgba(44, 13, 21, .7);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all .5s;
+
+                img {
+                    width: 6vw;
+                    height: 6vw;
+                }
+            }
+
+        }
+
+        .right_pic {
+            position: absolute;
+            top: 5vw;
+            right: 2vw;
+            width: 20.2vw;
+            height: 14.63vw;
+            margin-top: -4vw;
+        }
+    }
+
+    .banner {
+        width: 76.72vw;
+        height: 13.99vw;
+        margin-top: 2.89vw;
+
+        img {
+            width: 76.72vw;
+            height: 13.99vw;
+        }
+    }
+
+    .dm_title {
+        width: 78.72vw;
+        height: 2.89vw;
+        display: flex;
+        margin-top: 2vw;
+
+        .dm_left {
+            width: 5.57vw;
+            height: 2.89vw;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 2.57vw;
+                height: 2.89vw;
+            }
+
+            p {
+                font-size: 1.5vw;
+            }
+        }
+
+        .dm_right {
+            width: 70.74vw;
+            height: 2.89vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+                font-size: 1.3vw;
+            }
+
+            .hot {
+                margin-left: 57vw;
+            }
+
+            .more {
+                width: 3.75vw;
+                height: 1.55vw;
+                border: 0.1vw solid #fd00bf;
+                text-align: center;
+                line-height: 1.55vw;
+                border-radius: 0.3vw;
+                font-size: 0.2vw;
+            }
+        }
+    }
+
+    .botom {
+        width: 75.83vw;
+        height: 21.65vw;
+        display: flex;
+        align-items: center;
+
+        .dm_pic {
+            width: 58vw;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                width: 14.09vw;
+                height: 18.6vw;
+            }
+
+            p {
+                font-size: 0.2vw;
+                text-align: center;
+            }
+        }
+
+        .hot_dm {
+            width: 16.43vw;
+            height: 19.83vw;
+            margin-left: 0.8vw;
+
+            ul {
+                display: flex;
+
+                li {
+                    margin: 0.5vw 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+
+                    &:hover .details {
+                        display: flex;
+                    }
+
+                    &:hover .rank_title {
+                        display: none;
+                    }
+
+                    .number {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 1.39vw;
+                        height: 1.29vw;
+                        background-color: #ff9900;
+                        border-radius: 0.3vw;
+                        color: #fff;
+                        font-size: 0.8vw;
+                    }
+
+                    .rank_title {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        p {
+                            font-size: 0.8vw;
+                            padding-left: 1vw;
+                        }
+                    }
+
+                    .details {
+                        display: none;
+                        margin-left: 1vw;
+
+                        img {
+                            width: 6.54vw;
+                            height: 4.13vw;
+                            border-radius: 0.8vw;
+                        }
+
+                        .dm_name {
+                            display: flex;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+                            height: 5vw;
+
+                            p {
+                                width: 10vw;
+                                font-size: 0.8vw;
+                            }
+                        }
+
+                    }
+
+                }
+            }
+
+            img {
+                width: 17.63vw;
+                height: 6.77vw;
+            }
+        }
+    }
+
+    .yc_title {
+        font-size: 1vw;
+        margin-top: 3.11vw;
+
+        p {
+            font-size: 1.5vw;
+        }
+    }
+
+    .yc_pic {
+        width: 78.44vw;
+        height: 12.06vw;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+
+        img {
+            width: 14.36vw;
+            height: 10.83vw;
+        }
+
+        p {
+            font-size: 0.1vw;
+            text-align: center;
+        }
+    }
+
+    .rb_dm {
+        font-size: 0.1vw;
+
+        .rb_dm_title {
+            width: 78.19vw;
+            height: 1.77vw;
+            margin-top: 2vw;
+        }
+
+        p {
+            float: left;
+            font-size: 1.5vw;
+        }
+
+        .more1 {
+            width: 3.75vw;
+            height: 1.55vw;
+            border: 0.1vw solid #fd00bf;
+            text-align: center;
+            line-height: 1.55vw;
+            border-radius: 0.3vw;
+            font-size: 0.2vw;
+            margin-left: 74vw;
+        }
+    }
+
+    .rb_dm_pic {
+        width: 76.69vw;
+        height: 45.23vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 2vw;
+
+        img {
+            width: 14.09vw;
+            height: 18.97vw;
+            border-radius: 0.5vw;
+        }
+
+        p {
+            font-size: 0.1vw;
+            text-align: center;
+        }
+    }
+
+    .banner2 {
+        width: 76.72vw;
+        height: 13.99vw;
+        margin-top: 2.89vw;
+
+        img {
+            width: 76.72vw;
+            height: 13.99vw;
+        }
+    }
+
+    .banner3 {
+        width: 76.72vw;
+        height: 13.99vw;
+        margin-top: 2.89vw;
+
+        img {
+            width: 76.72vw;
+            height: 13.99vw;
+        }
+    }
+
+    /* 瀑布流插件 */
+    #main {
+        width: 90vw;
+        height: 725vw;
+        position: relative;
+        margin: 2vw auto;
+        // overflow: hidden;
+
+        div {
+            position: absolute;
+            transition: all 0.35s ease;
+            background: white;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            box-shadow: 0px 5px 10px 0px #ddf9ff;
+
+            img {
+                width: 180px;
+                margin: 10px;
+                height: 73%;
+                overflow: hidden;
+            }
+        }
+
+        p {
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            line-height: 20px;
+            color: #BDBDBD;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
